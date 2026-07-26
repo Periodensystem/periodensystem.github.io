@@ -692,14 +692,14 @@ div.text {
   align-self: left;
 }
 
-div.text-only {
+div.text-only { /* Verwenden, wenn im ganzen chapter kein Bild ist bzw. nur große Bilder (text-media-large) */
   display: flex;
   justify-content: center;
   max-width: 100%;
   width: max(90%, 500px);
 }
 
-div.text-only-wide {
+div.text-only-wide { /* Nur verwenden, wenn im ganzen Chapter kein Bild (oder wie oben) ist und der Text nicht in einem <p> ist, z.B. in einem <ul> */
   display: flex;
   justify-content: center;
   width: 100%;
@@ -1035,8 +1035,11 @@ footer>ul {
 }
 
 footer li {
-  cursor: pointer;
   position: relative;
+}
+
+footer a {
+  cursor: pointer;
 }
 
 footer li:hover {
@@ -1537,6 +1540,14 @@ footer a:hover {
   padding: 15px;
 }
 
+.ghs-inline {
+  background-color: var(--bg-elevated);
+  border-radius: 32px;
+  padding: 15px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
 #ghs-overview p {
   margin: 10px;
 }
@@ -1547,13 +1558,13 @@ footer a:hover {
   gap: clamp(10px, 5vw, 20px);
 }
 
-.ghs img {
+.ghs img, .ghs-inline img {
   width: clamp(40px, 20vw, 80px);
   height: clamp(40px, 20vw, 80px);
   box-sizing: border-box;
 }
 
-.ghs div {
+.ghs div, .ghs-inline div {
   display: flex;
   align-items: center;
   flex-grow: 1;

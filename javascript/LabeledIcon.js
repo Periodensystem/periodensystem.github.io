@@ -11,6 +11,8 @@ class LabeledIcon extends HTMLElement {
     } else {
       icon = "?"
     }
+
+    icon.classList.add("labeled-icon-icon")
     
     let fontSize = window.getComputedStyle(this).fontSize;
     fontSize = fontSize.slice(0, fontSize.length - 2);

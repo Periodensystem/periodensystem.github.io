@@ -72,6 +72,9 @@
     <experiment-link href="calcium/quantitativer_nachweis.html"></experiment-link>
     <experiment-link href="zink/batterie.html"></experiment-link>
     <experiment-link href="zink/muenze-vergolden.html"></experiment-link>
+    <experiment-link href="natrium/flammenfaerbung.html"></experiment-link>
+    <experiment-link href="natrium/pink_panther.html"></experiment-link>
+    <experiment-link href="natrium/mini_pink_panther.html"></experiment-link>
     <experiment-link href="kohlenstoff/pharaoschlange.html"></experiment-link>
     <experiment-link href="kohlenstoff/riesenseifenblase.html"></experiment-link>
     <experiment-link href="kohlenstoff/entfaerbung.html"></experiment-link>
@@ -96,6 +99,10 @@
 
     staticContentLoader.injectFooter();
 
+
+    // Ersetzt das normale Erlenmeyerkolben-Icon durch das farbige 
+    // Element-Icon aus dem PSE;
+    // Entfernt das "Experiment: " aus dem Titel
     document.querySelectorAll("experiment-link").forEach(async elem => {
       const shadow = elem.shadowRoot;
       if (!shadow) return;
@@ -125,7 +132,7 @@
     </svg>`
         header.innerHTML = "";
         const span = document.createElement("span");
-        span.innerHTML = headerText;
+        span.innerHTML = headerText.split("Experiment: ")[1] || headerText;
         span.prepend(newIcon);
         span.style.display = "grid";
         span.style.gridTemplateColumns = "25px 1fr";
