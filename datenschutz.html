@@ -8,18 +8,13 @@
   <meta name="keywords" content="Chemie, P-Seminar, WHG, Datenschutz, Datenschutzerklärung" />
   <meta name="content" content="P-Seminar Chemie WHG 25/26: Datenschutzeklärung" />
   <meta name="author" content="Schinkennugget" />
-  <script>
-    //NUR FÜR DEVELOPMENT, DEAKTIVIERT CACHING
-    const v = Date.now(); // neuer Wert bei jedem Seitenaufruf
-    const linkCSS = document.createElement("link");
-    linkCSS.rel = "stylesheet";
-    linkCSS.href = "css/styles.css";
-
-    if (document.baseURI.includes("p-seminar.schinkennugget.dev")) {
-      linkCSS.href += "?v=" + v;
-    }
-    document.head.append(linkCSS);
-  </script>
+  
+  <link id="favicon-96" rel="icon" type="image/png" sizes="96x96">
+  <link id="favicon-svg" rel="icon" type="image/svg+xml">
+  <link id="favicon-ico" rel="shortcut icon">
+  <link id="favicon-apple" rel="apple-touch-icon" sizes="180x180">
+  
+  <link rel="stylesheet" href="css/styles.css" />
   
   <script type="module">
     import * as darkmode from "./javascript/darkmode.js";

@@ -6,7 +6,7 @@ export function injectFooter() {
   footerEl.innerHTML = `<ul>
       <li><a href="${base + "impressum.html"}">Impressum</a></li>
       <li><a href="${base + "datenschutz.html"}">Datenschutz</a></li>
-      <li><a target="_blank" href="https://github.com/Schinkennugget/p-seminar.schinkennugget.dev/issues/new">Feedback auf GitHub geben</a><li>Feedback per E-Mail geben
+      <li><a target="_blank" href="https://github.com/Periodensystem/periodensystem.github.io/issues/new">Feedback auf GitHub geben</a><li>Feedback per E-Mail geben
         <div class="dropdown">
           <div><a id="mail-bugreport" href=""><labeled-icon icon="Bug">Problem melden</labeled-icon></a></div>
           <div><a id="mail-feature" href="mailto:kontakt@schinkennugget.dev?body=Welches%20Feature%20h%C3%A4ttest%20du%20gerne?%0A"><labeled-icon icon="Lightbulb">Feature vorschlagen</labeled-icon></a></div>

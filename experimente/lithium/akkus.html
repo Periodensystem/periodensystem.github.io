@@ -4,12 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="keywords" content="Chemie, P-Seminar, WHG, Experiment, Lithium, Akku" />
-  <meta name="content" content="P-Seminar Chemie: Lithium-Ionen Akku" />
+  <meta name="keywords" content="Chemie, P-Seminar, WHG, Leclanche-Element, Batterie, Experiment" />
+  <meta name="content" content="P-Seminar Chemie: Experiment Pharaoschlange" />
   <meta name="author" content="Schinkennugget" />
   <link rel="stylesheet" href="../../css/styles.css">
 
-  <meta property="og:title" content="Experiment: Lithium-Ionen Akku" />
+  <meta property="og:title" content="Experiment: Leclanché-Element bauen" />
+  <meta property="og:image" content="https://periodensystem.github.io/experimente/zink/batterie-preview.png" />
   <meta property="og:type" content="website" />
 
   <!-- KaTeX -->
@@ -23,7 +24,7 @@
     darkmode.initialize();
   </script>
 
-  <title>Experiment: Lithium-Ionen Akku</title>
+  <title>Experiment Batterie</title>
 
 </head>
 
@@ -60,7 +61,9 @@
   </nav>
 
   <main>
-    <h2><labeled-icon icon="FlaskConical">Experiment: Lithium-Ionen Akku</labeled-icon></h2>
+    <h2><labeled-icon icon="FlaskConical">Experiment: Léclanche-Element</labeled-icon></h2>
+
+    nach: <a href="http://www.unterrichtsmaterialien-chemie.uni-goettingen.de/exp_neu.php?id=2116">http://www.unterrichtsmaterialien-chemie.uni-goettingen.de/exp_neu.php?id=2116</a>
 
     <div id="materialien" class="text-chapter">
       <h3 tabindex="0" class="text-header">
@@ -71,7 +74,14 @@
       <div class="text-block text-only-wide">
         <div class="text">
           <ul>
-            
+            <li>Stativ mit Klemme und Muffe</li>
+            <li>2 kleine Bechergläser</li>
+            <li>Reagenzglasklammer</li>
+            <li>(Lämpchen/Motor)</li>
+            <li>Voltmeter</li>
+            <li>Kabel</li>
+            <li>Krokodilklemmen</li>
+            <li>ein Stück dünne Pappe</li>
           </ul>
         </div>
       </div>
@@ -80,64 +90,111 @@
         Chemikalien
       </h3>
 
-      <div class="text-block text-only-wide">
+      <div class="text-block">
         <div class="text">
           <ul>
-            
+            <li>Ammoniumchlorid</li>
+            <li>Mangandioxid (Braunstein)</li>
+            <li>Zinkblech</li>
+            <li>Kohleelektrode</li>
+            <li>Stärke</li>
           </ul>
+        </div>
+        <div class="text-media-small">
+          <div class="text-media-wrapper">
+            <img src="batterie-materialien.jpeg" data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-source="Eigenes Bild" data-author="Jakob D., Jakob K." data-title="Chemikalien">
+          </div>
         </div>
       </div>
     </div>
 
     <div id="ghs-overview">
       <div class="ghs">
+        <img src="/images/ghs/reizend.svg">
+        <div>Ammoniumchlorid und Mangandioxid wirken reizend</div>
+      </div>
+      <div class="ghs">
         <img src="/images/ghs/entzuendlich.svg">
-        <div>Lithium-Ionen-Lösung und entstehende Dämpfe sind leicht entflammbar</div>
+        <div>Zinkpulver ist entzündlich</div>
       </div>
       <div class="ghs">
-        <img src="/images/ghs/aetzend.svg">
-        <div>Lithium-Ionen-Lösung verursacht schwere Verätzungen der Haut und schwere Augenschäden</div>
+        <img src="/images/ghs/umwelt.svg">
+        <div>Zinkpulver ist umweltschädigend. Nach dem Experimentieren sollten die Chemikalien der Lehrkraft zur Entsorgung gegeben werden</div>
       </div>
-      <div class="ghs">
-        <img src="/images/ghs/giftig.svg">
-        <div>Lithium-Ionen-Lösung ist giftig oder gesundheitsschädlich beim Verschlucken oder Einatmen</div>
-      </div>
-      <div class="ghs">
-        <img src="/images/ghs/gesundheit.svg">
-        <div>Lithium-Ionen-Lösung schädigt Organe bei längerer oder wiederholter Exposition</div>
-      </div>
-      <p></p>
+      <p>
+        Schutzbrille zum Schutz vor Spritzern tragen. Schutzkleidung empfohlen. Lange Haare zusammenbinden.
+      </p>
     </div>
 
     <div id="durchfuehrung" class="text-chapter">
-      <h3 tabindex="0" class="text-header">
+      <h3 tabindex="0" class="text-subheader">
         Durchführung
         <i data-lucide="link" class="text-header-icon"></i>
       </h3>
 
       <div class="text-block">
         <div class="text">
-          <p>
-            Auf ein Stück Küchenrolle werden je nach Versuch unterschiedlich viele Tropfen Lithiumionenlösung gegeben, dieses Stück Küchenrolle wird zwischen 2 Graphitplatten gelegt. An den Seiten der Graphitplatten werden jeweils 2 Krokodilsklemmen befestigt. Die anderen Enden der Krokodilsklemmen werden zuerst an einer Batterie befestigt, damit der Akku aufgeladen wird, danach können sie an einen Verbraucher angeschlossen werden.
-          </p>
+          <ol>
+            <li>Zuerst die Elektronen blank schleifen und aus der Pappe eine Platte schneiden, die etwas kürzer ist als
+              die
+              Elektoden.</li>
+            <li>Etwa 15 mL Wasser und ein paar gehäuften Spatelspitzen Braunstein vermischen, dann so viel Stärke
+              zugeben,
+              dass eine zähe Paste entsteht.</li>
+            <li>Im zweiten Becherglas 20 mL Wasser so lange Ammoniumchlorid beimischen, bis die Lösung gesättigt ist und
+              die
+              Pappe darin tränken.</li>
+            <li>Das Zinkblech einspannen und die Pappe darauflegen.</li>
+            <li>Die Kohleelektrode mit der Braunsteinmischung beschmieren und auf die Pappe drücken. Jetzt kann mithilfe
+              der
+              Krokodilklemmen, die an die Elektroden angebracht werden, die Spannung gemessen werden. Mit dem Strom kann
+              auch
+              ein Verbraucher wie ein Motor oder eine LED betrieben werden.
+            </li>
+          </ol>
         </div>
         <div class="text-media-small">
           <div class="text-media-wrapper">
-            <video src="akku.mp4" preload="auto" controls data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-source="Eigenes Bild" data-author="Christoph G., Niklas R." data-title="Durchführung/Beobachtung Flammenfärbung Lithium"></video>
+            <img src="batterie-aufbau.jpeg" data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-source="Eigenes Bild" data-author="Jakob D., Jakob K." data-title="Aufbau Experiment">
           </div>
         </div>
       </div>
     </div>
 
     <div id="beobachtung" class="text-chapter">
-      <h3 tabindex="0" class="text-header">
+      <h3 tabindex="0" class="text-subheader">
         Beobachtung
+        <i data-lucide="link" class="text-header-icon"></i>
+      </h3>
+
+      <div class="text-block">
+        <div class="text">
+          <p>Es lässt sich eine Spannung messen bzw. das Lämpchen / der Motor geht an.</p>
+        </div>
+        <div class="text-media-small">
+          <div class="text-media-wrapper">
+            <video src="batterie-beobachtung.mp4" preload="auto" controls data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-author="Jakob D, Jakob K." data-source="Eigenes Werk" data-title="Batterie Aufbau/Beobachtung"></video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="erklaerung" class="text-chapter">
+      <h3 tabindex="0" class="text-subheader">
+        Erklärung
         <i data-lucide="link" class="text-header-icon"></i>
       </h3>
 
       <div class="text-block text-only">
         <div class="text">
-          <p>Akkus funktionieren, allerdings abhängig von Ladedauer und Anzahl der Tropfen von Lithiumionenlösung unterschiedlich lange</p>
+          <p>
+            Es findet eine Redoxreaktion statt, bei der Elektronen durch den Verbraucher wandern und ihn so antreiben:
+            <br />
+            Oxidation: \( \ce{Zn -> Zn^2+ + 2 e^-} \) <br />
+            Reduktion: \( \ce{2 MnO2 + H2O + 2 e- -> MnO(OH) + 2 OH^-} \) <br />
+            Gesamtgleichung: \( \ce{2 MnO2 + H2O + Zn → Zn^2+ + MnO(OH) + 2 OH^-} \)
+          </p>
         </div>
       </div>
     </div>
@@ -170,6 +227,12 @@
     import * as main from "../../javascript/scripts.js";
 
     main.addTextHeaderClickListener();
+
+    // const elementName = document.querySelector("#header-text > h1").innerText;
+    // datenLoader.insertDatenIntoGrafik(elementName);
+    // datenLoader.insertDatenIntoDatenliste(elementName);
+    // datenLoader.generateAndInjectFavicon(elementName);
+    // datenLoader.insertPSE();
   </script>
 
   <script>
@@ -177,7 +240,7 @@
   </script>
 
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       renderMathInElement(document.body, {
         delimiters: [
           { left: "$$", right: "$$", display: true },
