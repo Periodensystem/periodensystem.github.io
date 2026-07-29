@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:creator>RealFaviconGenerator</dc:creator><dc:source>https://realfavicongenerator.net</dc:source></rdf:Description></rdf:RDF></metadata><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1098)"><rect width="1000" height="1000" fill="#ffffff"></rect><g transform="matrix(5,0,0,5,0,0)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="200"><rect x="30" y="30" width="55" height="60" rx="8" ry="8" fill="cornflowerblue"></rect><rect x="30" y="100" width="55" height="60" rx="8" ry="8" fill="#ffd237"></rect><rect x="30" y="170" width="55" height="60" rx="8" ry="8" fill="#ffd237"></rect><rect x="95" y="100" width="55" height="60" rx="8" ry="8" fill="#ffb635"></rect><rect x="95" y="170" width="55" height="60" rx="8" ry="8" fill="#ffb635"></rect><rect x="160" y="100" width="55" height="60" rx="8" ry="8" fill="#00a400"></rect><rect x="160" y="170" width="55" height="60" rx="8" ry="8" fill="#004600"></rect></svg></g></g><defs><clipPath id="SvgjsClipPath1098"><rect width="1000" height="1000" x="0" y="0" rx="200" ry="200"></rect></clipPath></defs></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(5,0,0,5,0,0)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="200"><rect x="30" y="30" width="55" height="60" rx="8" ry="8" fill="cornflowerblue"></rect><rect x="30" y="100" width="55" height="60" rx="8" ry="8" fill="#ffd237"></rect><rect x="30" y="170" width="55" height="60" rx="8" ry="8" fill="#ffd237"></rect><rect x="95" y="100" width="55" height="60" rx="8" ry="8" fill="#ffb635"></rect><rect x="95" y="170" width="55" height="60" rx="8" ry="8" fill="#ffb635"></rect><rect x="160" y="100" width="55" height="60" rx="8" ry="8" fill="#00a400"></rect><rect x="160" y="170" width="55" height="60" rx="8" ry="8" fill="#004600"></rect></svg></g></g></svg></g></svg>

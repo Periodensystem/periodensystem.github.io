@@ -7,10 +7,10 @@ const data = {
     experimente: "100%",
     text_batterie_experiment: "100%",
     text_münzen_experiment: "100%",
-    immunsystem: "5%",
-    batterietechnik: "0%",
+    immunsystem: "100%",
+    batterietechnik: "100%",
     eigenschaften: "100%",
-    texte_ueberarbeiten: "15%"
+    texte_ueberarbeiten: "100%"
   },
   webseite: {
     struktur_webseite: "100%",
@@ -22,12 +22,12 @@ const data = {
     rechtliches: "100%",
     hosting: "100%",
     quellen: "100%",
-    pse: "1ß0%",
-    startseite_konzept: "5%",
+    pse: "100%",
+    startseite_konzept: "100%",
     startseite_recherche: "0%",
-    startseite_bauen: "0%",
-    experimente_konzept: "20%",
-    experimente_bauen: "0%",
+    startseite_bauen: "20%",
+    experimente_konzept: "100%",
+    experimente_bauen: "50%",
     andere_einbauen: "100%"
   }
 };

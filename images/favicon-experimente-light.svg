@@ -1,0 +1,18 @@
+<svg version="1.1"
+     width="200" height="200"
+     xmlns="http://www.w3.org/2000/svg">
+
+     <rect x="30" y="30" width="55" height="60" rx="8" ry="8" fill="cornflowerblue"></rect>
+     <rect x="30" y="100" width="55" height="60" rx="8" ry="8" fill="#ffd237"></rect>
+     <rect x="30" y="170" width="55" height="60" rx="8" ry="8" fill="#ffd237"></rect>
+     
+     <rect x="95" y="100" width="55" height="60" rx="8" ry="8" fill="#ffb635"></rect>
+     <rect x="95" y="170" width="55" height="60" rx="8" ry="8" fill="#ffb635"></rect>
+     
+     <rect x="160" y="100" width="55" height="60" rx="8" ry="8" fill="#00a400"></rect>
+     <rect x="160" y="170" width="55" height="60" rx="8" ry="8" fill="#004600"></rect>
+     
+     <rect x="0" y="0" width="100%" height="100%"  fill="#fff8"></rect>
+     
+     <svg xmlns="http://www.w3.org/2000/svg" x="45" y="47" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flask-conical-icon lucide-flask-conical"><path d="M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2"/><path d="M6.453 15h11.094"/><path d="M8.5 2h7"/></svg>
+</svg>

@@ -9,6 +9,7 @@ export async function loadElemente() {
   try {
     if (!alleElemente) {
       const response = await fetch('/data/elements.json');
+      console.log(JSON.stringify(response))
       alleElemente = await response.json();
     }
     return alleElemente;

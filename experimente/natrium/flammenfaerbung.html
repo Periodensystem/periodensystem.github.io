@@ -2,215 +2,223 @@
 <html lang="de">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Chemie, P-Seminar, WHG, Experiment, Natrium, Flammenfärbung" />
-    <meta name="content" content="P-Seminar Chemie: Experiment Flammenfärbung Natrium" />
-    <meta name="author" content="Schinkennugget" />
-    <link rel="stylesheet" href="../../css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="Chemie, P-Seminar, WHG, Experiment, Natrium, Flammenfärbung" />
+  <meta name="content" content="P-Seminar Chemie: Experiment Flammenfärbung Natrium" />
+  <meta name="author" content="Schinkennugget" />
+  <link rel="stylesheet" href="../../css/styles.css">
 
-    <meta property="og:title" content="Experiment: Flammenfärbung von Natrium" />
-    <meta property="og:image" content="https://periodensystem.github.io/experimente/natrium/flammenfaerbung.png" />
-    <meta property="og:type" content="website" />
+  <meta property="og:title" content="Experiment: Flammenfärbung von Natrium" />
+  <meta property="og:image" content="https://periodensystem.github.io/experimente/natrium/flammenfaerbung.png" />
+  <meta property="og:type" content="website" />
 
-    <!-- KaTeX -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/mhchem.min.js"></script>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favicon-experimente/favicon-96x96.png?v=1" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/images/favicon-experimente/favicon.svg?v=1" />
+  <link rel="shortcut icon" href="/images/favicon-experimente/favicon.ico?v=1" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-experimente/apple-touch-icon.png?v=1" />
+  <meta name="apple-mobile-web-app-title" content="Experimente" />
+  <link rel="manifest" href="/images/favicon-experimente/site.webmanifest?v=1" />
 
-    <script type="module">
-        import * as darkmode from "../../javascript/darkmode.js";
-        darkmode.initialize();
-    </script>
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/mhchem.min.js"></script>
 
-    <title>Experiment: Flammenfärbung Natrium</title>
+  <script type="module">
+    import * as darkmode from "../../javascript/darkmode.js";
+    darkmode.initialize();
+  </script>
+
+  <title>Experiment: Flammenfärbung Natrium</title>
 
 </head>
 
 <body tabindex="0">
 
-    <nav>
-        <ul id="navbar">
-            <li class="navbar-item-left">
-                <a href="../../index.html" tabindex="0">
-                    <i data-lucide="house" class="navbar-icon"></i>
-                    <span class="navbar-text-1">Startseite</span>
-                </a>
-            </li>
-            <li class="navbar-item-left">
-                <a href="../alle-experimente.html" tabindex="0">
-                    <i data-lucide="flask-conical" class="navbar-icon"></i>
-                    <span class="navbar-text-2">Experimente</span>
-                </a>
-            </li>
+  <nav>
+    <ul id="navbar">
+      <li class="navbar-item-left">
+        <a href="../../index.html" tabindex="0">
+          <i data-lucide="house" class="navbar-icon"></i>
+          <span class="navbar-text-1">Startseite</span>
+        </a>
+      </li>
+      <li class="navbar-item-left">
+        <a href="../alle-experimente.html" tabindex="0">
+          <i data-lucide="flask-conical" class="navbar-icon"></i>
+          <span class="navbar-text-2">Experimente</span>
+        </a>
+      </li>
 
-            <li class="navbar-item-right" tabindex="0" id="navbar-button-darkmode">
-                <span>
-                    <i data-lucide="sun" class="navbar-icon" id="navbar-icon-sun"></i>
-                    <i data-lucide="moon" class="navbar-icon" id="navbar-icon-moon"></i>
-                </span>
-            </li>
-            <li class="navbar-item-right" tabindex="0" onclick="window.print();">
-                <span>
-                    <i data-lucide="printer" class="navbar-icon"></i>
-                    <span class="navbar-text-3">Seite drucken</span>
-                </span>
-            </li>
-        </ul>
-    </nav>
+      <li class="navbar-item-right" tabindex="0" id="navbar-button-darkmode">
+        <span>
+          <i data-lucide="sun" class="navbar-icon" id="navbar-icon-sun"></i>
+          <i data-lucide="moon" class="navbar-icon" id="navbar-icon-moon"></i>
+        </span>
+      </li>
+      <li class="navbar-item-right" tabindex="0" onclick="window.print();">
+        <span>
+          <i data-lucide="printer" class="navbar-icon"></i>
+          <span class="navbar-text-3">Seite drucken</span>
+        </span>
+      </li>
+    </ul>
+  </nav>
 
-    <main>
-        <h2><labeled-icon icon="FlaskConical">Experiment: Flammenfärbung von Natrium</labeled-icon></h2>
+  <main>
+    <h2><labeled-icon icon="FlaskConical">Experiment: Flammenfärbung von Natrium</labeled-icon></h2>
 
-        <div id="materialien" class="text-chapter">
-            <h3 tabindex="0" class="text-header">
-                Materialien
-                <i data-lucide="link" class="text-header-icon"></i>
-            </h3>
+    <div id="materialien" class="text-chapter">
+      <h3 tabindex="0" class="text-header">
+        Materialien
+        <i data-lucide="link" class="text-header-icon"></i>
+      </h3>
 
-            <div class="text-block text-only-wide">
-                <div class="text">
-                    <ul>
-                        <li>Magnesiastab</li>
-                        <li>Bunsenbrenner</li>
-                        <li>Tiegelzange</li>
-                        <li>Wasser</li>
-                        <li>Becherglas</li>
-                    </ul>
-                </div>
-            </div>
-
-            <h3 tabindex="0" class="text-subheader">
-                Chemikalien
-            </h3>
-
-            <div class="text-block text-only-wide">
-                <div class="text">
-                    <ul>
-                        <li>Natriumsalz (NaCl)</li>
-                    </ul>
-                </div>
-            </div>
+      <div class="text-block text-only-wide">
+        <div class="text">
+          <ul>
+            <li>Magnesiastab</li>
+            <li>Bunsenbrenner</li>
+            <li>Tiegelzange</li>
+            <li>Wasser</li>
+            <li>Becherglas</li>
+          </ul>
         </div>
+      </div>
 
-        <div id="ghs-overview">
-            <p>Lange Haare zusammenbinden.</p>
+      <h3 tabindex="0" class="text-subheader">
+        Chemikalien
+      </h3>
+
+      <div class="text-block text-only-wide">
+        <div class="text">
+          <ul>
+            <li>Natriumsalz (NaCl)</li>
+          </ul>
         </div>
+      </div>
+    </div>
 
-        <div id="durchfuehrung" class="text-chapter">
-            <h3 tabindex="0" class="text-header">
-                Durchführung
-                <i data-lucide="link" class="text-header-icon"></i>
-            </h3>
+    <div id="ghs-overview">
+      <p>Lange Haare zusammenbinden.</p>
+    </div>
 
-            <div class="text-block text-only-wide">
-                <div class="text">
-                    <ol>
-                        <li>Etwas Wasser in das Becherglas füllen</li>
-                        <li>Bunsenbrenner entzünden; rauschende Flamme einstellen</li>
-                        <li>Magnesiastab mit Tiegelzange halten</li>
-                        <li>Magnesiastab in das Becherglas mit Wasser tauchen</li>
-                        <li>Magnesiastab in das Natriumsalz eintauchen; es bleibt etwas von dem Natriumsalz an dem Magnesiastab hängen</li>
-                        <li>Magnesiastab in die rauschende Flamme des Bunsenbrenners halten</li>
-                    </ol>
-                </div>
-            </div>
+    <div id="durchfuehrung" class="text-chapter">
+      <h3 tabindex="0" class="text-header">
+        Durchführung
+        <i data-lucide="link" class="text-header-icon"></i>
+      </h3>
+
+      <div class="text-block text-only-wide">
+        <div class="text">
+          <ol>
+            <li>Etwas Wasser in das Becherglas füllen</li>
+            <li>Bunsenbrenner entzünden; rauschende Flamme einstellen</li>
+            <li>Magnesiastab mit Tiegelzange halten</li>
+            <li>Magnesiastab in das Becherglas mit Wasser tauchen</li>
+            <li>Magnesiastab in das Natriumsalz eintauchen; es bleibt etwas von dem Natriumsalz an dem Magnesiastab hängen</li>
+            <li>Magnesiastab in die rauschende Flamme des Bunsenbrenners halten</li>
+          </ol>
         </div>
+      </div>
+    </div>
 
-        <div id="beobachtung" class="text-chapter">
-            <h3 tabindex="0" class="text-header">
-                Beobachtung
-                <i data-lucide="link" class="text-header-icon"></i>
-            </h3>
+    <div id="beobachtung" class="text-chapter">
+      <h3 tabindex="0" class="text-header">
+        Beobachtung
+        <i data-lucide="link" class="text-header-icon"></i>
+      </h3>
 
-            <div class="text-block">
-                <div class="text">
-                    <p>Die Flamme des Bunsenbrenners färbt sich intensiv gelb, nach einiger Zeit lässt die Färbung langsam nach und wird schwächer.</p>
-                </div>
-                <div class="text-media-small">
-                    <div class="text-media-wrapper">
-                        <img src="flammenfaerbung.png" data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-source="Eigenes Bild" data-author="Mila B., Weronika J." data-title="Bebachtung Flammenfärbung Natrium">
-                    </div>
-                </div>
-            </div>
+      <div class="text-block">
+        <div class="text">
+          <p>Die Flamme des Bunsenbrenners färbt sich intensiv gelb, nach einiger Zeit lässt die Färbung langsam nach und wird schwächer.</p>
         </div>
-
-
-        <div id="erklaerung" class="text-chapter">
-            <h3 tabindex="0" class="text-header">
-                Erklärung
-                <i data-lucide="link" class="text-header-icon"></i>
-            </h3>
-
-            <div class="text-block">
-                <div class="text">
-                    <p>
-                        Die Hitze der Flamme regt die Elektronen des Natriumsalzes NaCl auf ein höheres
-                        Energieniveau an. D.h. das Elektron wandert auf eine höhere elektronische Atomschale
-                        (=Schichten um Atomkerne, in denen sich die Elektronen des Atoms befinden). Da der
-                        energetische Zustand der Elektronen instabil ist, fallen diese in ihre ursprüngliche
-                        Atomschale zurück. Die Energie, die bei diesem Rückfall freigesetzt wird, wird in Form
-                        von Licht frei (exotherm). Diese spezifische Energie des Elektrons entspricht einer
-                        Wellenlänge von ca. 570-590 nm (= Farbe gelb).
-                    </p>
-                </div>
-                <div class="text-media-small">
-                    <div class="text-media-wrapper">
-                        <img src="flammenfaerbung_erklaerung.png" data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-source="Eigenes Bild" data-author="Mila B., Weronika J." data-title="Erklärung Flammenfärbung Natrium">
-                    </div>
-                </div>
-            </div>
+        <div class="text-media-small">
+          <div class="text-media-wrapper">
+            <img src="flammenfaerbung.png" data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-source="Eigenes Bild" data-author="Mila B., Weronika J." data-title="Bebachtung Flammenfärbung Natrium">
+          </div>
         </div>
-    </main>
+      </div>
+    </div>
+
+
+    <div id="erklaerung" class="text-chapter">
+      <h3 tabindex="0" class="text-header">
+        Erklärung
+        <i data-lucide="link" class="text-header-icon"></i>
+      </h3>
+
+      <div class="text-block">
+        <div class="text">
+          <p>
+            Die Hitze der Flamme regt die Elektronen des Natriumsalzes NaCl auf ein höheres
+            Energieniveau an. D.h. das Elektron wandert auf eine höhere elektronische Atomschale
+            (=Schichten um Atomkerne, in denen sich die Elektronen des Atoms befinden). Da der
+            energetische Zustand der Elektronen instabil ist, fallen diese in ihre ursprüngliche
+            Atomschale zurück. Die Energie, die bei diesem Rückfall freigesetzt wird, wird in Form
+            von Licht frei (exotherm). Diese spezifische Energie des Elektrons entspricht einer
+            Wellenlänge von ca. 570-590 nm (= Farbe gelb).
+          </p>
+        </div>
+        <div class="text-media-small">
+          <div class="text-media-wrapper">
+            <img src="flammenfaerbung_erklaerung.png" data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-source="Eigenes Bild" data-author="Mila B., Weronika J." data-title="Erklärung Flammenfärbung Natrium">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
 
 
-    <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
 
-    <script type="module">
-        import * as LabeledIcon from "../../javascript/LabeledIcon.js";
-        import * as staticContentLoader from "../../javascript/staticContentLoader.js";
-        staticContentLoader.injectFooter();
-    </script>
+  <script type="module">
+    import * as LabeledIcon from "../../javascript/LabeledIcon.js";
+    import * as staticContentLoader from "../../javascript/staticContentLoader.js";
+    staticContentLoader.injectFooter();
+  </script>
 
-    <script async type="module">
-        // import * as expandableHandler from "./javascript/expandableHandler.js";
-        // expandableHandler.addClickListener();
-        // expandableHandler.addDatenHoverEventListener();
+  <script async type="module">
+    // import * as expandableHandler from "./javascript/expandableHandler.js";
+    // expandableHandler.addClickListener();
+    // expandableHandler.addDatenHoverEventListener();
 
-        // import * as sourceLoader from "./javascript/sourceLoader.js";
-        // sourceLoader.injectSourceNotes();
+    // import * as sourceLoader from "./javascript/sourceLoader.js";
+    // sourceLoader.injectSourceNotes();
 
-        import * as mediaHandler from "../../javascript/mediaHandler.js";
-        mediaHandler.initialize();
+    import * as mediaHandler from "../../javascript/mediaHandler.js";
+    mediaHandler.initialize();
 
-        import * as ExperimentLink from "../../javascript/ExperimentLink.js";
-    </script>
+    import * as ExperimentLink from "../../javascript/ExperimentLink.js";
+  </script>
 
-    <script type="module">
-        // import * as datenLoader from "./javascript/datenLoader.js";
-        import * as main from "../../javascript/scripts.js";
+  <script type="module">
+    // import * as datenLoader from "./javascript/datenLoader.js";
+    import * as main from "../../javascript/scripts.js";
 
-        main.addTextHeaderClickListener();
-    </script>
+    main.addTextHeaderClickListener();
+  </script>
 
-    <script>
-        lucide.createIcons();
-    </script>
+  <script>
+    lucide.createIcons();
+  </script>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            renderMathInElement(document.body, {
-                delimiters: [
-                    { left: "$$", right: "$$", display: true },
-                    { left: "$", right: "$", display: false },
-                    { left: "\\(", right: "\\)", display: false },
-                    { left: "\\[", right: "\\]", display: true }
-                ]
-            });
-        });
-    </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false },
+          { left: "\\[", right: "\\]", display: true }
+        ]
+      });
+    });
+  </script>
 </body>
 
 </html>

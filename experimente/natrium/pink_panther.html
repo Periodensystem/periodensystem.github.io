@@ -2,263 +2,271 @@
 <html lang="de">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Chemie, P-Seminar, WHG, Experiment, Natrium, Pink Panther" />
-    <meta name="content" content="P-Seminar Chemie: Pink Panther" />
-    <meta name="author" content="Schinkennugget" />
-    <link rel="stylesheet" href="../../css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="Chemie, P-Seminar, WHG, Experiment, Natrium, Pink Panther" />
+  <meta name="content" content="P-Seminar Chemie: Pink Panther" />
+  <meta name="author" content="Schinkennugget" />
+  <link rel="stylesheet" href="../../css/styles.css">
 
-    <meta property="og:title" content="Experiment: Pink Panther" />
-    <meta property="og:image" content="https://periodensystem.github.io/experimente/natrium/pink_panther_explosion1.png" />
-    <meta property="og:type" content="website" />
+  <meta property="og:title" content="Experiment: Pink Panther" />
+  <meta property="og:image" content="https://periodensystem.github.io/experimente/natrium/pink_panther_explosion1.png" />
+  <meta property="og:type" content="website" />
 
-    <!-- KaTeX -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/mhchem.min.js"></script>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favicon-experimente/favicon-96x96.png?v=1" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/images/favicon-experimente/favicon.svg?v=1" />
+  <link rel="shortcut icon" href="/images/favicon-experimente/favicon.ico?v=1" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-experimente/apple-touch-icon.png?v=1" />
+  <meta name="apple-mobile-web-app-title" content="Experimente" />
+  <link rel="manifest" href="/images/favicon-experimente/site.webmanifest?v=1" />
 
-    <script type="module">
-        import * as darkmode from "../../javascript/darkmode.js";
-        darkmode.initialize();
-    </script>
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/mhchem.min.js"></script>
 
-    <title>Experiment: Pink Panther</title>
+  <script type="module">
+    import * as darkmode from "../../javascript/darkmode.js";
+    darkmode.initialize();
+  </script>
+
+  <title>Experiment: Pink Panther</title>
 
 </head>
 
 <body tabindex="0">
 
-    <nav>
-        <ul id="navbar">
-            <li class="navbar-item-left">
-                <a href="../../index.html" tabindex="0">
-                    <i data-lucide="house" class="navbar-icon"></i>
-                    <span class="navbar-text-1">Startseite</span>
-                </a>
-            </li>
-            <li class="navbar-item-left">
-                <a href="../alle-experimente.html" tabindex="0">
-                    <i data-lucide="flask-conical" class="navbar-icon"></i>
-                    <span class="navbar-text-2">Experimente</span>
-                </a>
-            </li>
+  <nav>
+    <ul id="navbar">
+      <li class="navbar-item-left">
+        <a href="../../index.html" tabindex="0">
+          <i data-lucide="house" class="navbar-icon"></i>
+          <span class="navbar-text-1">Startseite</span>
+        </a>
+      </li>
+      <li class="navbar-item-left">
+        <a href="../alle-experimente.html" tabindex="0">
+          <i data-lucide="flask-conical" class="navbar-icon"></i>
+          <span class="navbar-text-2">Experimente</span>
+        </a>
+      </li>
 
-            <li class="navbar-item-right" tabindex="0" id="navbar-button-darkmode">
-                <span>
-                    <i data-lucide="sun" class="navbar-icon" id="navbar-icon-sun"></i>
-                    <i data-lucide="moon" class="navbar-icon" id="navbar-icon-moon"></i>
-                </span>
-            </li>
-            <li class="navbar-item-right" tabindex="0" onclick="window.print();">
-                <span>
-                    <i data-lucide="printer" class="navbar-icon"></i>
-                    <span class="navbar-text-3">Seite drucken</span>
-                </span>
-            </li>
-        </ul>
-    </nav>
+      <li class="navbar-item-right" tabindex="0" id="navbar-button-darkmode">
+        <span>
+          <i data-lucide="sun" class="navbar-icon" id="navbar-icon-sun"></i>
+          <i data-lucide="moon" class="navbar-icon" id="navbar-icon-moon"></i>
+        </span>
+      </li>
+      <li class="navbar-item-right" tabindex="0" onclick="window.print();">
+        <span>
+          <i data-lucide="printer" class="navbar-icon"></i>
+          <span class="navbar-text-3">Seite drucken</span>
+        </span>
+      </li>
+    </ul>
+  </nav>
 
-    <main>
-        <h2><labeled-icon icon="FlaskConical">Experiment: Pink Panther</labeled-icon></h2>
+  <main>
+    <h2><labeled-icon icon="FlaskConical">Experiment: Pink Panther</labeled-icon></h2>
 
-        <div id="materialien" class="text-chapter">
-            <h3 tabindex="0" class="text-header">
-                Materialien
-                <i data-lucide="link" class="text-header-icon"></i>
-            </h3>
+    <div id="materialien" class="text-chapter">
+      <h3 tabindex="0" class="text-header">
+        Materialien
+        <i data-lucide="link" class="text-header-icon"></i>
+      </h3>
 
-            <div class="text-block text-only-wide">
-                <div class="text">
-                    <ul>
-                        <li>Glaswanne</li>
-                        <li>Messer</li>
-                        <li>Unterlage</li>
-                        <li>Pinzette</li>
-                        <li>Papiertuch</li>
-                        <li>Wasser</li>
-                        <li>Abzug</li>
-                    </ul>
-                </div>
-            </div>
-
-            <h3 tabindex="0" class="text-subheader">
-                Chemikalien
-            </h3>
-
-            <div class="text-block text-only-wide">
-                <div class="text">
-                    <ul>
-                        <li>Natriumstücke (in Paraffinöl)</li>
-                        <li>Phenolphthaleinlösung (Indikator)</li>
-                    </ul>
-                </div>
-            </div>
+      <div class="text-block text-only-wide">
+        <div class="text">
+          <ul>
+            <li>Glaswanne</li>
+            <li>Messer</li>
+            <li>Unterlage</li>
+            <li>Pinzette</li>
+            <li>Papiertuch</li>
+            <li>Wasser</li>
+            <li>Abzug</li>
+          </ul>
         </div>
+      </div>
 
-        <div id="ghs-overview">
-            <div class="ghs">
+      <h3 tabindex="0" class="text-subheader">
+        Chemikalien
+      </h3>
+
+      <div class="text-block text-only-wide">
+        <div class="text">
+          <ul>
+            <li>Natriumstücke (in Paraffinöl)</li>
+            <li>Phenolphthaleinlösung (Indikator)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="ghs-overview">
+      <div class="ghs">
+        <img src="/images/ghs/entzuendlich.svg">
+        <div>Natrium reagiert heftig mit Wasser und bildet dabei hochentzündbare Gase</div>
+      </div>
+      <div class="ghs">
+        <img src="/images/ghs/aetzend.svg">
+        <div>Natrium verursacht schwere Verätzungen an der Haut und schwere Augenschäden</div>
+      </div>
+      <p>Schutzbrille, Schutzhandschuhe und Schutzkleidung tragen! Experiment im Abzug durchführen. Sicherheitshinweise der Chemikalien beachten.</p>
+    </div>
+
+    <div id="durchfuehrung" class="text-chapter">
+      <h3 tabindex="0" class="text-header">
+        Durchführung
+        <i data-lucide="link" class="text-header-icon"></i>
+      </h3>
+
+      <div class="text-block text-only-wide">
+        <div class="text">
+          <ol>
+            <li>Glaswanne mit Wasser füllen</li>
+            <li>Phenolphthaleinlösung hinzugeben</li>
+            <li>Glaswanne unter dem Abzug platzieren</li>
+            <li>Ein Stück Natrium mit der Pinzette aus dem Glas nehmen und auf der Unterlage (Papiertuch) platzieren.<br>
+              <div class="ghs ghs-inline">
                 <img src="/images/ghs/entzuendlich.svg">
-                <div>Natrium reagiert heftig mit Wasser und bildet dabei hochentzündbare Gase</div>
-            </div>
-            <div class="ghs">
-                <img src="/images/ghs/aetzend.svg">
-                <div>Natrium verursacht schwere Verätzungen an der Haut und schwere Augenschäden</div>
-            </div>
-            <p>Schutzbrille, Schutzhandschuhe und Schutzkleidung tragen! Experiment im Abzug durchführen. Sicherheitshinweise der Chemikalien beachten.</p>
+                <div>Unterlage und sonstige Matrialien vollkommen trocken halten!</div>
+              </div>
+            </li>
+            <li>ein Stück vom elementaren Natrium abschneiden (wenn nötig dabei mit Pinzette festhalten)</li>
+            <li>Petroleumöl/Paraffinöl mit dem Papiertuch abtrocknen</li>
+            <li>Filterpapier in die Hand nehmen</li>
+            <li>Stück Natrium mit der Pinzette nehmen und auf das Filterpapier legen</li>
+            <li>sofort den Abzug schließen</li>
+          </ol>
+          Folgende Problemquellen sollten beachtet werden:
+          <ul>
+            <li>Zu viel Wasser in der Wanne</li>
+            <li>Zu kleine Menge Phenolphthaleinlösung</li>
+            <li>Zu kleines Stück Natrium</li>
+          </ul>
+          Bei uns hat es funktioniert, ein Viertel der Wanne zu füllen (Boden bedeckt), 2 Pipetten Phenolphthaleinlösung und 1/3 Scheibe Natrium zu nutzen.
         </div>
+      </div>
+    </div>
 
-        <div id="durchfuehrung" class="text-chapter">
-            <h3 tabindex="0" class="text-header">
-                Durchführung
-                <i data-lucide="link" class="text-header-icon"></i>
-            </h3>
+    <div id="beobachtung" class="text-chapter">
+      <h3 tabindex="0" class="text-header">
+        Beobachtung
+        <i data-lucide="link" class="text-header-icon"></i>
+      </h3>
 
-            <div class="text-block text-only-wide">
-                <div class="text">
-                    <ol>
-                        <li>Glaswanne mit Wasser füllen</li>
-                        <li>Phenolphthaleinlösung hinzugeben</li>
-                        <li>Glaswanne unter dem Abzug platzieren</li>
-                        <li>Ein Stück Natrium mit der Pinzette aus dem Glas nehmen und auf der Unterlage (Papiertuch) platzieren.<br>
-                            <div class="ghs ghs-inline">
-                                <img src="/images/ghs/entzuendlich.svg">
-                                <div>Unterlage und sonstige Matrialien vollkommen trocken halten!</div>
-                            </div>
-                        </li>
-                        <li>ein Stück vom elementaren Natrium abschneiden (wenn nötig dabei mit Pinzette festhalten)</li>
-                        <li>Petroleumöl/Paraffinöl mit dem Papiertuch abtrocknen</li>
-                        <li>Filterpapier in die Hand nehmen</li>
-                        <li>Stück Natrium mit der Pinzette nehmen und auf das Filterpapier legen</li>
-                        <li>sofort den Abzug schließen</li>
-                    </ol>
-                    Folgende Problemquellen sollten beachtet werden:
-                    <ul>
-                        <li>Zu viel Wasser in der Wanne</li>
-                        <li>Zu kleine Menge Phenolphthaleinlösung</li>
-                        <li>Zu kleines Stück Natrium</li>
-                    </ul>
-                    Bei uns hat es funktioniert, ein Viertel der Wanne zu füllen (Boden bedeckt), 2 Pipetten Phenolphthaleinlösung und 1/3 Scheibe Natrium zu nutzen.
-                </div>
-            </div>
+      <div class="text-block text-only">
+        <div class="text">
+          <p>
+            Das Natrium bewegt sich zischend übers Wasser. Dabei wird es kleiner und formt sich zu einer Kugel, entzündet sich, explodiert, bildet viel Gas (Wasserstoff) und hinterlässt pinke Schlieren auf dem Wasser.
+          </p>
         </div>
-
-        <div id="beobachtung" class="text-chapter">
-            <h3 tabindex="0" class="text-header">
-                Beobachtung
-                <i data-lucide="link" class="text-header-icon"></i>
-            </h3>
-
-            <div class="text-block text-only">
-                <div class="text">
-                    <p>
-                        Das Natrium bewegt sich zischend übers Wasser. Dabei wird es kleiner und formt sich zu einer Kugel, entzündet sich, explodiert, bildet viel Gas (Wasserstoff) und hinterlässt pinke Schlieren auf dem Wasser.
-                    </p>
-                </div>
-            </div>
-            <div class="text-media-large">
-                <div class="text-media-wrapper">
-                    <img src="pink_panther_schale1.png" data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-source="Eigenes Bild" data-author="Mila B. Weronika J." data-title="Beobachtung 1 Pink Panther">
-                </div>
-            </div>
-            <div class="text-media-large">
-                <div class="text-media-wrapper">
-                    <img src="pink_panther_explosion1.png" data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-source="Eigenes Bild" data-author="Mila B. Weronika J." data-title="Beobachtung 2 Pink Panther">
-                </div>
-            </div>
-            <div class="text-media-large">
-                <div class="text-media-wrapper">
-                    <img src="pink_panther_explosion2.png" data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-source="Eigenes Bild" data-author="Mila B. Weronika J." data-title="Beobachtung 3 Pink Panther">
-                </div>
-            </div>
-            <div class="text-media-large">
-                <div class="text-media-wrapper">
-                    <img src="pink_panther_schale2.png" data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-source="Eigenes Bild" data-author="Mila B. Weronika J." data-title="Beobachtung 4 Pink Panther">
-                </div>
-            </div>
+      </div>
+      <div class="text-media-large">
+        <div class="text-media-wrapper">
+          <img src="pink_panther_schale1.png" data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-source="Eigenes Bild" data-author="Mila B. Weronika J." data-title="Beobachtung 1 Pink Panther">
         </div>
-
-
-        <div id="erklaerung" class="text-chapter">
-            <h3 tabindex="0" class="text-header">
-                Erklärung
-                <i data-lucide="link" class="text-header-icon"></i>
-            </h3>
-
-            <div class="text-block text-only">
-                <div class="text">
-                    <p>
-                        Das Stück Natrium reagiert heftig exotherm mit dem Wasser unter Bildung eines Gases
-                        (Wasserstoff). Die Verfärbung des Indikators zu pink zeigt an, dass sich der pH-Wert der
-                        Lösung. verändert hat. Die pinke Lösung zeigt an, dass der pH-Wert im basischen
-                        Bereich liegt. Das Natrium reagiert folglich mit Wasser zu Natriumhydroxid (=Natronlauge)
-                        und Wasserstoff.
-                    </p>
-                    \( \ce{Na + H2O -> NaOH + H2} \)
-                    <p>
-                        Die Energieumsetzung findet in Form von kinetischer Energie statt, wodurch das
-                        Natriumstück über das Wasser gleitet. Es formt sich durch die Oberflächenspannung des
-                        flüssigen Metalls zu einer Kugel. Das Natrium entzündet sich und explodiert anschließend
-                        deswegen, weil sich das Natrium nicht mehr bewegen kann oder das Gas nicht
-                        entweichen kann (geschlossenes System im Abzug). Die Entzündungstemperatur des
-                        Wasserstoffs kann leicht erreicht werden, da bei der stark exothermen Reaktion viel
-                        Energie in Form von Wärme freigesetzt wird.
-                    </p>
-                </div>
-            </div>
+      </div>
+      <div class="text-media-large">
+        <div class="text-media-wrapper">
+          <img src="pink_panther_explosion1.png" data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-source="Eigenes Bild" data-author="Mila B. Weronika J." data-title="Beobachtung 2 Pink Panther">
         </div>
+      </div>
+      <div class="text-media-large">
+        <div class="text-media-wrapper">
+          <img src="pink_panther_explosion2.png" data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-source="Eigenes Bild" data-author="Mila B. Weronika J." data-title="Beobachtung 3 Pink Panther">
+        </div>
+      </div>
+      <div class="text-media-large">
+        <div class="text-media-wrapper">
+          <img src="pink_panther_schale2.png" data-license="<a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>" data-source="Eigenes Bild" data-author="Mila B. Weronika J." data-title="Beobachtung 4 Pink Panther">
+        </div>
+      </div>
+    </div>
 
-        <experiment-link href="mini_pink_panther.html"></experiment-link>
-    </main>
+
+    <div id="erklaerung" class="text-chapter">
+      <h3 tabindex="0" class="text-header">
+        Erklärung
+        <i data-lucide="link" class="text-header-icon"></i>
+      </h3>
+
+      <div class="text-block text-only">
+        <div class="text">
+          <p>
+            Das Stück Natrium reagiert heftig exotherm mit dem Wasser unter Bildung eines Gases
+            (Wasserstoff). Die Verfärbung des Indikators zu pink zeigt an, dass sich der pH-Wert der
+            Lösung. verändert hat. Die pinke Lösung zeigt an, dass der pH-Wert im basischen
+            Bereich liegt. Das Natrium reagiert folglich mit Wasser zu Natriumhydroxid (=Natronlauge)
+            und Wasserstoff.
+          </p>
+          \( \ce{Na + H2O -> NaOH + H2} \)
+          <p>
+            Die Energieumsetzung findet in Form von kinetischer Energie statt, wodurch das
+            Natriumstück über das Wasser gleitet. Es formt sich durch die Oberflächenspannung des
+            flüssigen Metalls zu einer Kugel. Das Natrium entzündet sich und explodiert anschließend
+            deswegen, weil sich das Natrium nicht mehr bewegen kann oder das Gas nicht
+            entweichen kann (geschlossenes System im Abzug). Die Entzündungstemperatur des
+            Wasserstoffs kann leicht erreicht werden, da bei der stark exothermen Reaktion viel
+            Energie in Form von Wärme freigesetzt wird.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <experiment-link href="mini_pink_panther.html"></experiment-link>
+  </main>
 
 
 
-    <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
 
-    <script type="module">
-        import * as LabeledIcon from "../../javascript/LabeledIcon.js";
-        import * as staticContentLoader from "../../javascript/staticContentLoader.js";
-        staticContentLoader.injectFooter();
-    </script>
+  <script type="module">
+    import * as LabeledIcon from "../../javascript/LabeledIcon.js";
+    import * as staticContentLoader from "../../javascript/staticContentLoader.js";
+    staticContentLoader.injectFooter();
+  </script>
 
-    <script async type="module">
-        // import * as expandableHandler from "./javascript/expandableHandler.js";
-        // expandableHandler.addClickListener();
-        // expandableHandler.addDatenHoverEventListener();
+  <script async type="module">
+    // import * as expandableHandler from "./javascript/expandableHandler.js";
+    // expandableHandler.addClickListener();
+    // expandableHandler.addDatenHoverEventListener();
 
-        // import * as sourceLoader from "./javascript/sourceLoader.js";
-        // sourceLoader.injectSourceNotes();
+    // import * as sourceLoader from "./javascript/sourceLoader.js";
+    // sourceLoader.injectSourceNotes();
 
-        import * as mediaHandler from "../../javascript/mediaHandler.js";
-        mediaHandler.initialize();
+    import * as mediaHandler from "../../javascript/mediaHandler.js";
+    mediaHandler.initialize();
 
-        import * as ExperimentLink from "../../javascript/ExperimentLink.js";
-    </script>
+    import * as ExperimentLink from "../../javascript/ExperimentLink.js";
+  </script>
 
-    <script type="module">
-        // import * as datenLoader from "./javascript/datenLoader.js";
-        import * as main from "../../javascript/scripts.js";
+  <script type="module">
+    // import * as datenLoader from "./javascript/datenLoader.js";
+    import * as main from "../../javascript/scripts.js";
 
-        main.addTextHeaderClickListener();
-    </script>
+    main.addTextHeaderClickListener();
+  </script>
 
-    <script>
-        lucide.createIcons();
-    </script>
+  <script>
+    lucide.createIcons();
+  </script>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            renderMathInElement(document.body, {
-                delimiters: [
-                    { left: "$$", right: "$$", display: true },
-                    { left: "$", right: "$", display: false },
-                    { left: "\\(", right: "\\)", display: false },
-                    { left: "\\[", right: "\\]", display: true }
-                ]
-            });
-        });
-    </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false },
+          { left: "\\[", right: "\\]", display: true }
+        ]
+      });
+    });
+  </script>
 </body>
 
 </html>
