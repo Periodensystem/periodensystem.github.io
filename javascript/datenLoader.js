@@ -225,7 +225,7 @@ export async function insertPSE() {
       const elementnameElem = document.createElement("div");
 
       const isLocal = new URL(document.baseURI).host.includes('localhost');
-      elementElem.href = isLocal ? `http://localhost:3000/${replaceUmlauts(alleElementeObj[key].elementname)}.html` : `https://p-seminar.schinkennugget.dev/${replaceUmlauts(alleElementeObj[key].elementname)}.html`;
+      elementElem.href = isLocal ? `http://localhost:3000/${replaceUmlauts(alleElementeObj[key].elementname)}.html` : `https://periodensystem.github.io/${replaceUmlauts(alleElementeObj[key].elementname)}.html`;
       // elementElem.title = alleElementeObj[key].elementname;
 
       const elementsymbolTextElem = document.createElement("span")
